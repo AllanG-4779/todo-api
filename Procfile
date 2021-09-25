@@ -1,1 +1,1 @@
-web: gunicorn django_rest.wsgi
+web: gunicorn django_rest.wsgi --log-file -
